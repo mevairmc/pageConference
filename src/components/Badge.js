@@ -7,14 +7,14 @@ import confLogo from '../images/badge-header.svg';
 class Badge extends React.Component {
   render() {
     return (
-      <div className="Badge">
-        <div className="Badge__header">
+      <div className="badge__container">
+        <div className="badge__header">
           <img src={confLogo} alt ="Logo de conferencia" />
         </div>
 
-        <div className="Badge__section-name">
+        <div className="badge__section-name">
           <img
-            className="Badge__avatar"
+            className="badge__avatar"
             src={this.props.urlAvatar}
             alt ="Avatar"
           />
@@ -23,10 +23,12 @@ class Badge extends React.Component {
           </h1>
         </div>
 
-        <div className="Badge__section-info">
+        <div className="badge__section-info">
           <h3>{this.props.jobTitle}</h3>
           <div>@{this.props.twitterAccount}</div>
         </div>
+
+        <div className="badge__footer" >#platzyconf</div>
       </div>
     );
   }
