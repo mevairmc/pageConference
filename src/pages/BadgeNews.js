@@ -3,6 +3,7 @@ import React from 'react';
 import './styles/badgeNews.css'
 import header from '../images/badge-header.svg';
 import Navbar from '../components/Navbar';
+import Badge from '../components/Badge';
 
 class BadgeNews extends React.Component {
   render() {
@@ -11,6 +12,21 @@ class BadgeNews extends React.Component {
         <Navbar />
         <div className="BadgeNew__hero">
           <img className="img-fluid" src={header} alt="logo"></img>
+        </div>
+      
+
+        <div className="container">
+          <div className="row">
+            <div className="col">
+            <Badge
+                firstName="Evair"
+                lastName="Macollunco"
+                twitter="mevairmc"
+                jobTitle="Full Stack Developer"
+                urlAvatar="https://www.gravatar.com/avatar/21594ed15d68ace3965642162f8d2e84?d=identicon"
+              />
+            </div>
+          </div>
         </div>
       </div>
     );
