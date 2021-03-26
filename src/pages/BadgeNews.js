@@ -21,9 +21,9 @@ class BadgeNews extends React.Component {
             <Badge
                 firstName="Evair"
                 lastName="Macollunco"
-                twitter="mevairmc"
+                twitterAccount="mevairmc"
                 jobTitle="Full Stack Developer"
-                urlAvatar="https://www.gravatar.com/avatar/21594ed15d68ace3965642162f8d2e84?d=identicon"
+                urlAvatar="https://secure.gravatar.com/avatar/ae15b44a34da0b1a8d7c5a6799a3344c://www.gravatar.com/avatar/21594ed15d68ace3965642162f8d2e84?d=https://secure.gravatar.com/avatar/ae15b44a34da0b1a8d7c5a6799a3344c"
               />
             </div>
           </div>
