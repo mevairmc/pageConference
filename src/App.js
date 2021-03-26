@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';  //bootstrap
+import './App.css'; //Style
 
 function App() {
   return;
