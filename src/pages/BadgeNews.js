@@ -36,15 +36,16 @@ class BadgeNews extends React.Component {
           <div className="row">
             <div className="col-6">
             <Badge
-                firstName="Evair"
-                lastName="Macollunco"
-                twitterAccount="mevairmc"
-                jobTitle="Full Stack Developer"
+                firstName = {this.state.form.firstName}
+                lastName = {this.state.form.lastName}
+                twitterAccount = {this.state.form.twitter}
+                jobTitle = {this.state.form.jobTitle}
+                email = {this.state.form.email}
                 urlAvatar="https://secure.gravatar.com/avatar/ae15b44a34da0b1a8d7c5a6799a3344c://www.gravatar.com/avatar/21594ed15d68ace3965642162f8d2e84?d=https://secure.gravatar.com/avatar/ae15b44a34da0b1a8d7c5a6799a3344c"
               />
             </div>
             <div className="col-6">
-              <BadgeForm 
+              <BadgeForm
                 onChange={this.handleChange}
                 formValues={this.state.form}
               />

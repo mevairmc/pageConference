@@ -4,16 +4,16 @@ class BadgeForm extends React.Component {
 
   // state = {};
 
-  handleChange = (e) => {
+  // handleChange = (e) => {
     // console.log({
     //   name: e.target.name,
     //   value: e.target.value
     // });
 
-    this.setState({
-      [e.target.name]: e.target.value
-    })
-  }
+    // this.setState({
+    //   [e.target.name]: e.target.value
+    // })
+  // }
 
   handleClick = (e) => {
     console.log("button was clicked");
